@@ -1,6 +1,7 @@
 package com.pool;
 
 import static org.hamcrest.Matchers.containsString;
+import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -24,5 +25,8 @@ public class HelloControllerMockMvcTest {
                     .andExpect(status().isOk())
                     .andExpect(content().string(containsString("Hello World!")));
     }
+	public void getData() {
+	
+	}
 
 }
