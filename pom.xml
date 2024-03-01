@@ -12,9 +12,13 @@
 	<groupId>com.pool</groupId>
 	<artifactId>studentpool_mokito_junit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>studentpool_mokito_junit</name>
+    <packaging>pom</packaging>
+    <name>studentpool_mokito_junit</name>
 	<description>studentpool_mokito_junit</description>
-	<properties>
+    <modules>
+        <module>basics</module>
+    </modules>
+    <properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
